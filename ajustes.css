@@ -1,0 +1,167 @@
+/* esta pagina es para dejar el estilo
+body {
+  font-family: 'Amatic SC', cursive;
+
+  color:rgba(0,0,0,1);
+  font-weight:700;
+  background-color:  #74C2B1;
+
+  padding-top: 50px;}
+
+p { font-family: inherit;}
+
+h4, h5, h6 {
+
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+header{background-color:  #fff;}
+
+section{
+  padding-top: 50px;
+  padding-left: 100px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color:  #fff;}
+
+
+aside{
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color:  #fff;}
+
+
+
+footer
+  {
+
+  font-weight:700;
+  text-align: center;
+  background-color:  #fff;
+  border-top:1px
+  solid: silver;
+  padding:0.5em 0; margin:3em 0 0 0;} */
+
+body{padding-top:50px;
+  font-family: 'Amatic SC', cursive;
+  color:rgba(0,0,0,1);
+  font-weight:700;
+  background-color: #74C2B1;}
+
+a { color: #FF0000; }
+
+nav.navbar {
+    background-color: #000;
+  }
+nav.li {color: white;}
+
+:hover{
+-webkit-transition: color 0.5s ease-in-out;
+-moz-transition: color 0.5s ease-in-out;
+-o-transition: color 0.5s ease-in-out;
+transition: color 0.5s ease-in-out; /*transición al superponer el mouse*/
+}
+
+::selection{background-color: black;} cursor
+
+
+
+header{
+
+  padding:2em 0;
+
+}
+h1 {
+  text-align: center;
+  text-shadow: 2px 2px #ff0000;
+  font-family: 'Amatic SC', cursive;
+  color: white;
+  }
+
+
+  header p{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px #ff0000;
+    font-family: 'Muli', sans-serif;
+    padding-bottom: 2em;
+  }
+
+
+header p{font-family: 'Muli', sans-serif;}
+
+
+header h2{font-weight:300;}
+
+
+section {padding-left: 20px;
+  padding-right: 20px;
+  background-color: #7CCBBA}
+
+section h3 {color: black;
+text-shadow: 0.5px 0.5px #fff;}
+
+
+article{padding-bottom:1.5em;}
+
+article h5 {padding-bottom:1em;}
+article h5 a{padding-right:1em;}
+article p {
+  font-family: 'Muli', sans-serif;
+  color: black;
+}
+article figure{
+
+  margin-right:2em;
+  margin-bottom:1em;
+  margin-top:0.25em;
+  float:left;
+  width:40%;
+  height:auto;
+  overflow: hidden;
+}
+img.about {
+
+  width: 300px; height: 300 px;
+}
+img.index1 {
+  width: 300px; height: 300 px;
+}
+
+
+@media (max-width: 768px) /*sirve para que se adapte hasta un cierto punto*/{
+article figure{width:100%; padding-right:0; clear:both;}
+}
+/*esto de abajo sirve para pasar el cursor encima y que comience en gris y después
+se vuelva de color */
+article figure img{width:100%; height:auto;filter:grayscale(100%);}
+article:hover figure img{filter:grayscale(0);
+transform: scale(1.5)
+}
+aside{
+
+  text-align: center;
+  background-color: #000000;
+  padding-top:0.3em;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+  padding-bottom: 0.05em;
+}
+
+aside p { color: #3A776A}
+
+
+aside h3{
+  margin-left:0.6em;
+  color: #F0E5E5;
+  font-size:1.25em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 800;
+  margin-bottom: 1em;
+}
+
+footer{
+
+  text-align: center;
+  border-top:1px solid silver;
+  padding:1em 0; margin:3em 0 0 0;
+}
